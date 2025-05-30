@@ -18,6 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="google9c5e9c7205a2ebf3.html"
+        />
+      </head>
       <body className={`${inter.className} bg-white text-gray-900`}>
         <Navbar />
         <main className="min-h-screen px-4">{children}</main>
