@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <meta
           name="google-site-verification"
-          content="google9c5e9c7205a2ebf3.html"
+          content="YqZEBIL-kcAzszs2MOuTwE4pqwr3UHLZ1eKwM99sKTA"
         />
       </head>
       <body className={`${inter.className} bg-white text-gray-900`}>
