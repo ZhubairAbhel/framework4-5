@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
         </div>
       </div>
 
-      <section>
+      <section className="mb-6">
         <h2 className="text-2xl font-semibold mb-4">Keahlian</h2>
         <ul className="list-disc pl-6 text-gray-700">
           <li>HTML, CSS, JavaScript</li>
@@ -31,6 +32,13 @@ export default function Home() {
           <li>Tailwind CSS</li>
           <li>Git & GitHub</li>
         </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">SEO</h2>
+        <Link href="/seo" className="text-blue-600 underline">
+          Lihat Halaman SEO
+        </Link>
       </section>
     </main>
   );
